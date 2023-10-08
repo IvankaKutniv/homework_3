@@ -1,18 +1,85 @@
 // ДЗ 4. Скільки тобі років ?
-let age = 33;
-if (age === 1, 21, 31, 41, 51, 61, 71, 81, 91, 101) {
-    console.log("Мені" + " " + age + " " + "рік");
-} else if (age === 2, 3, 4,
-                22, 23, 24,
-                32, 33, 34,
-                42, 43, 44,
-                52, 53, 54,
-                62, 63, 64,
-                72, 73, 74,
-                82, 83, 84,
-                92, 93, 94,
-               102, 103, 104) {
-    console.log("Мені" + " " + age + " " + "роки");
+let age = 35;
+if (age === 1) {
+ console.log("Мені" + " " + age + " " + "рік");
+} else if (age === 21) {
+ console.log("Мені" + " " + age + " " + "рік");
+} else if (age === 31) {
+ console.log("Мені" + " " + age + " " + "рік");
+} else if (age === 41) {
+ console.log("Мені" + " " + age + " " + "рік");
+} else if (age === 51) {
+ console.log("Мені" + " " + age + " " + "рік");
+} else if (age === 61) {
+ console.log("Мені" + " " + age + " " + "рік");
+} else if (age === 71) {
+ console.log("Мені" + " " + age + " " + "рік");
+} else if (age === 81) {
+ console.log("Мені" + " " + age + " " + "рік");
+} else if (age === 91) {
+ console.log("Мені" + " " + age + " " + "рік");
+} else if (age === 101) {
+ console.log("Мені" + " " + age + " " + "рік");
+} else if (age === 2) {
+ console.log("Мені" + " " + age + " " + "роки");
+} else if (age === 3) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 4) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 22) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 23) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 24) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 32) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 33) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 34) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 42) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 43) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 44) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 52) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 53) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 54) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 62) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 63) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 64) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 72) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 73) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 74) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 82) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 83) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 84) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 92) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 93) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 94) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 102) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 103) {
+ console.log("Мені" + " " + age + " " + "роки")
+}  else if (age === 104) {
+ console.log("Мені" + " " + age + " " + "роки")
 } else {
-    console.log("Мені" + " " + age + " " + "років");
+ console.log("Мені" + " " + age + " " + "років");
 }
