@@ -1,37 +1,75 @@
 'number' + 3 + 3
+Result: number33
+Discription: відбувається конкатенація
 
 null + 3
+Result:NaN
+Discription: ми не можемо провести арифметичну операцію з різними типами даних
 
 5 && "qwerty"
+Result: qwerty
+Discription: повертає останній рядок зі значенням true
 
-+'40' + +'2' + "hillel";
++'40' + +'2' + "hillel"
+Result: 42hillel
+Discription: плюс перед стрінгою перетворює її на число, відповідно вираз виглядає: 42 + "hillel", а далі знову виконується конкатенація
 
-'10' - 5 === 6;
+'10' - 5 === 6
+Result: false
+Discription: спочатку виконуємо віднімання 10-5, а потім результат порівнюємо з 6, тобто 5 не може дорівнювати 6 
 
 true + false
+Result: 1
+Discription: true має значення 1, false має значення 0  
 
 '4px' - 3
+Result: NaN
+Discription: неможливо проводити операції з різними типами даних
 
 '4' - 3
+Result: 1
+Discription: при будь-якій арифметичній операції JS намагається все звести до чисел, а це означає: 4-3=1
 
-'6' + 3 ** 0;
+'6' + 3 ** 0
+Result: 61
+Discription: 3 в нульовій степені дорівнює одиниці, потім виконується конкатенація
 
 12 / '6'
+Result: 2
+Discription: при будь-якій арифметичній операції JS намагається все звести до чисел, а це означає: 12/6=2
 
-'10' + (5 === 6);
+'10' + (5 === 6)
+Result: 10false
+Discription: 5 не дорівнює 6, тому відповідь false, а далі виконується конкатенація
 
 null == ''
+Result: true 
+Discription: null і '' завжди приводиться до false, отже ми маємо вираз: false == false 
 
-3 ** (9 / 3);
+3 ** (9 / 3)
+Result: 27
+Discription: спочатку проводимо дії у дужках, потім число 3 підводимо до степені
 
 !!'false' == !!'true'
+Result: true
+Discription: двічі інвертована строка залишилася строкою, далі ми порівнюємо дві строки 
 
 0 || '0' && 1
+Result: 0
+Discription: 0 || '0' дає true, виводиться результат 0 і далі не читається
 
-(+null == false) < 1;
+(+null == false) < 1
+Result: true
+Discription: +null дає 0, 0 == 0 (false) і 0 < 1 
 
 false && true || true
+Result: false
+Discription: false && true дає false, а далі не читає 
 
-false && (false || true);
+false && (false || true)
+Result: false  
+Discription: false || true доє true, а false && true дає false  
 
-(+null == false) < 1 ** 5;
+(+null == false) < 1 ** 5
+Result: true 
+Discription: +null дає 0, 0 == 0 (false) і 0 < 1 (одиниця в 5-ій степені дорівнює одиниці) 
