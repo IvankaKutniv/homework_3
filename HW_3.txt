@@ -2,7 +2,9 @@
 
 var age = prompt("Вкажіть ваш вік", "18");
 
-if (age === "1") {
+if (age <= "0") {
+    console.log(age + " – " + "невірно введенні дані");
+} else if (age === "1") {
     console.log("Мені" + " " + age + " " + "рік");
 } else if (age === "21") {
     console.log("Мені" + " " + age + " " + "рік");
