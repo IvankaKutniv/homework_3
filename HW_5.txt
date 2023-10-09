@@ -1,0 +1,18 @@
+//ДЗ 5. Конвертер
+var km = 10;
+var hours = '2';
+var kg = 1;
+var isUnitCorrect = true;
+switch (km) {
+    case 10:
+        console.log(km + "км – це " + km + ",000м");
+        break;
+    case '2':
+        console.log(hours + "год. – це " + hours * 60 + "хв.");
+        break;
+    case 1:
+        console.log(kg + "кг – це " + kg + ",000г");
+        break;
+    default:
+        console.log('Щось пішло не так');
+}
