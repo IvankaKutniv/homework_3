@@ -18,7 +18,7 @@ for (let n = 1; n <= rows; ++n) {
     }
     return draw;
 }
-console.log(drawTriangle());*/
+console.log(drawTriangle(5));*/
 
 
 // ДЗ 2: Сума чисел, які не кратні 3
@@ -41,4 +41,4 @@ console.log(drawTriangle());*/
     }
     return result;
 }
-console.log(pow())*/
+console.log(pow(3,3))*/
