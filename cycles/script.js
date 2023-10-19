@@ -1,24 +1,30 @@
 //ДЗ 1: Намалювати прямокутний трикутник із зірочок
 //Перший спосіб
 
-/*let rows = 5;
-let draw = "*";
-for (let n = 1; n <= rows; ++n) {
-    console.log(draw);
-    draw += "*"
-}*/
+/*function drawTriangle(rows, sign) {
+    var draw = sign;
+    var i = 0;
+    for (; ;) {
+        if (i === rows) {
+            break;
+        }
+        console.log(draw);
+        draw += sign;
+        i++;
+    }
+}
+console.log(drawTriangle(5, '*'));*/
 
 //Другий спосіб
 
-/*function drawTriangle(star) {
-    var draw = "";
+/*function drawTriangle(star, sign) {
+    var draw = sign;
     for (var j = 1; j <= star; j++) {
         console.log(draw)
-        draw += "*"
+        draw += sign
     }
-    return draw;
 }
-console.log(drawTriangle(5));*/
+console.log(drawTriangle(5, '*'));*/
 
 
 // ДЗ 2: Сума чисел, які не кратні 3
