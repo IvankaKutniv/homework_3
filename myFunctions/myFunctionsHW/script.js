@@ -16,7 +16,7 @@ isNaN('hello');*/
 //ДЗ 2: Реалізація функцій padEnd та padStart
 
 /*function pad(myRow, sign, amount, boolean) {
-        if (boolean == true)
+        if (boolean === true)
             return myRow.padStart(amount, sign);
         else
             return myRow.padEnd(amount, sign);
