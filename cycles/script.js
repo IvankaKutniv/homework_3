@@ -17,9 +17,9 @@ console.log(drawTriangle(5, '*'));*/
 
 //Другий спосіб
 
-/*function drawTriangle(star, sign) {
+/*function drawTriangle(rows, sign) {
     var draw = sign;
-    for (var j = 1; j <= star; j++) {
+    for (var j = 1; j <= rows; j++) {
         console.log(draw)
         draw += sign
     }
