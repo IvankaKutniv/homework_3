@@ -3,10 +3,14 @@
 
 /*function isNaN(num) {
     console.log(num);
-    let result = num**2 / 3;
-    return result;
+    let result = num * 1;
+    if (result === num) {
+        console.log('false');
+    } else {
+        console.log('true');
+    }
 }
-console.log(isNaN(36));*/
+isNaN('hello');*/
 
 
 //ДЗ 2: Реалізація функцій padEnd та padStart
