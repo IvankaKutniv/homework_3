@@ -19,7 +19,7 @@ console.log(drawTriangle(5, '*'));*/
 
 /*function drawTriangle(rows, sign) {
     var draw = sign;
-    for (var j = 0; j <= rows; j++) {
+    for (var j = 1; j <= rows; j++) {
         console.log(draw)
         draw += sign
     }
