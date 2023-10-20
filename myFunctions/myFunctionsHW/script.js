@@ -35,7 +35,7 @@ console.log(pad('123.45', '$', 7, true));*/
         let rnd = Math.random() * (max - min) + min;
         rnd = Math.ceil(rnd);
         console.log(rnd);
-        if (rnd % 2) {
+        if (rnd % 2 === 0) {
             paired += 1;
         } else {
             unpaired += 1;
