@@ -29,14 +29,16 @@ console.log(drawTriangle(5, '*'));*/
 
 // ДЗ 2: Сума чисел, які не кратні 3
 
-/*for (let i = 1; i <= 100; i++){
-    if (i % 3 === 0) continue;
-    for (let j = 1; j <= 100; j++){
-        if (j % 3 !== 0)
-        console.log("Результат додавання " + i + " + " + j + " = " + (i + j));
-    }
-    console.log("----------------------------")
-}*/
+/*function calculateSum(rangeFrom, rangeTo) {
+    let sum = 0;
+    for (let i = rangeFrom; i <= rangeTo; i++) {
+        if (i % 3 === 0) continue;
+        console.log("Число не кратне трійці: " + i);
+        sum += i;
+        }
+    console.log("Сума чисел, не кратних трійці становить: " + sum);
+}
+calculateSum(1, 100);*/
 
 // ДЗ 3: Зведення в ступінь
 
