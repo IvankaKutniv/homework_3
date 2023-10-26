@@ -15,14 +15,14 @@ isNaN('hello');*/
 
 //ДЗ 2: Реалізація функцій padEnd та padStart
 
-/*function pad(myRow, sign, amount) {
-            if (!isNaN(myRow)) {
-            console.log(sign.repeat(amount) + myRow);
-        } else {
-            console.log(myRow + sign.repeat(amount));
-        }
+/*function pad(myRow, sign, amount, boolean) {
+    if (boolean) {
+        console.log(sign.repeat(amount) + myRow);
+    } else {
+        console.log(myRow + sign.repeat(amount));
+    }
 }
-pad('123.45', '$', 2);*/
+pad('123456', '$', 2, false);*/
 
 
 //ДЗ 3: Перевірка теорії ймовірності
